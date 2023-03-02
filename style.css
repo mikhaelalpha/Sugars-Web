@@ -3,9 +3,9 @@
     margin: 0;
 }
 
-body {
+#home {
     background-color: #000000;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 a {
