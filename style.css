@@ -8,14 +8,14 @@
     overflow: hidden;
 }
 
-#who {
+#about {
     background-color: #fffaec;
-    overflow: auto;
 }
 
 a {
     text-decoration: none;
     color: #000000;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .container {
@@ -40,16 +40,15 @@ a {
     align-items: center;
 }
 
-.who-container {
+.text-container {
     width: 400px;
-    height: 100%;
-    position: relative;
+    position: absolute;
+    top: 40px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    outline: solid red;
 }
 
 img.landscape {
@@ -62,23 +61,17 @@ img.portrait {
     height: 95vh;
 }
 
-.heavy {
-    font-family: "korolev-condensed", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-}
-
 #who {
     position: absolute;
     text-align: right;
-    top: 20vh;
+    top: 19.6vh;
     right: 11vw;
 }
 
 #playlist {
     position: absolute;
     text-align: left;
-    top: 69.4vh;
+    top: 69vh;
     left: 11.2vw;
 }
 
@@ -89,18 +82,17 @@ img.portrait {
 
 .black {
     font-family: 'Courier Prime', monospace;
-    font-size: 1rem;
+    font-size: 1em;
     color: black;
     font-weight: normal;
 }
 
-footer {
-    display: flex;
-    justify-content: center;
-    font-size: 0.8rem;
-    font-family: 'Courier Prime', monospace;
-    color: #fffaec;
-    padding: 8px;
+p {
+   padding-bottom: 20px; 
+}
+
+p::selection{
+    background: #ff6f00;
 }
 
 @media (orientation: landscape) {
