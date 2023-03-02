@@ -66,6 +66,7 @@ img.portrait {
     text-align: right;
     top: 20.3vh;
     right: 11vw;
+    color: black;
 }
 
 #playlist {
@@ -73,6 +74,7 @@ img.portrait {
     text-align: left;
     top: 69.8vh;
     left: 11.2vw;
+    color: black;
 }
 
 .underline {
@@ -80,15 +82,15 @@ img.portrait {
     text-decoration: underline;
 }
 
-.black {
+.courier {
     font-family: 'Courier Prime', monospace;
     font-size: 1em;
-    color: black;
     font-weight: normal;
 }
 
 p {
-   padding: 10px;
+    color: black;
+    padding: 10px;
 }
 
 p::selection{
