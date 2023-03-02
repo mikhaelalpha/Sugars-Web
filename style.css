@@ -71,14 +71,14 @@ img.portrait {
 #who {
     position: absolute;
     text-align: right;
-    top: 20.6vh;
+    top: 20vh;
     right: 11vw;
 }
 
 #playlist {
     position: absolute;
     text-align: left;
-    top: 70vh;
+    top: 69.4vh;
     left: 11.2vw;
 }
 
