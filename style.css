@@ -54,6 +54,7 @@ a {
 img.landscape {
     width: 95vw;
     height: 80vh;
+    z-index: 0;
 }
 
 img.portrait {
@@ -100,6 +101,30 @@ p::selection{
 @media (orientation: landscape) {
     .portrait {
         display: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: #fffaec;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    #who {
+        position: absolute;
+        text-align: left;
+        top: 6vh;
+        left: 7.5vw;
+        color: red;
+        z-index: 1;
+    }
+    
+    #playlist {
+        position: absolute;
+        text-align: right;
+        top: 94vh;
+        right: 7.5vw;
+        color: #fffaec;
+        z-index: 1;
     }
 }
 
