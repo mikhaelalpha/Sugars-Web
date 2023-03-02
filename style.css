@@ -41,7 +41,7 @@ a {
 }
 
 .text-container {
-    width: 400px;
+    max-width: 400px;
     position: absolute;
     top: 40px;
     display: flex;
@@ -64,14 +64,14 @@ img.portrait {
 #who {
     position: absolute;
     text-align: right;
-    top: 20vh;
+    top: 20.3vh;
     right: 11vw;
 }
 
 #playlist {
     position: absolute;
     text-align: left;
-    top: 69.5vh;
+    top: 69.8vh;
     left: 11.2vw;
 }
 
@@ -88,7 +88,7 @@ img.portrait {
 }
 
 p {
-   padding-bottom: 20px; 
+   padding: 10px 20px 10px 20px;
 }
 
 p::selection{
@@ -98,6 +98,12 @@ p::selection{
 @media (orientation: landscape) {
     .portrait {
         display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .text-container {
+        width: 100vw;
     }
 }
 
