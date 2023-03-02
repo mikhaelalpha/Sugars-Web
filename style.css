@@ -65,7 +65,7 @@ img.portrait {
 #who {
     position: absolute;
     text-align: right;
-    top: 20.3vh;
+    top: 20.2vh;
     right: 11vw;
     color: black;
 }
@@ -73,7 +73,7 @@ img.portrait {
 #playlist {
     position: absolute;
     text-align: left;
-    top: 69.8vh;
+    top: 69.7vh;
     left: 11.2vw;
     color: black;
 }
