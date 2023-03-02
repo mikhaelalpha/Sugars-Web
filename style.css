@@ -121,7 +121,7 @@ p::selection{
     #playlist {
         position: absolute;
         text-align: right;
-        top: 94vh;
+        top: 93vh;
         right: 7.5vw;
         color: #fffaec;
         z-index: 1;
