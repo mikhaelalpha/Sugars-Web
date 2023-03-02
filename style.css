@@ -88,3 +88,9 @@ footer {
         display: none;
     }
 }
+
+@media (min-aspect-ratio: 18 / 39) {
+    #home {
+        overflow: auto;
+    }
+}
