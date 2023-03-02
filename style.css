@@ -27,6 +27,12 @@ a {
     align-items: center;
 }
 
+.sugars{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 img.landscape {
     width: 95vw;
     height: 80vh;
