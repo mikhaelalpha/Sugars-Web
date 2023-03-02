@@ -27,9 +27,14 @@ a {
     align-items: center;
 }
 
-img {
+img.landscape {
     width: 95vw;
     height: 80vh;
+}
+
+img.portrait {
+    width: 80vw;
+    height: 95vh;
 }
 
 .heavy {
