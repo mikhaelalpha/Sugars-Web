@@ -87,9 +87,7 @@ footer {
     .landscape {
         display: none;
     }
-}
 
-@media (orientation: portrait) and (min-aspect-ratio: 18 / 39)  {
     #home {
         overflow: auto;
     }
