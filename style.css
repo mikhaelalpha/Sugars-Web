@@ -10,6 +10,7 @@
 
 #about {
     background-color: #fffaec;
+    overflow: hidden;
 }
 
 a {
